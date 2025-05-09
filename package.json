@@ -1,0 +1,20 @@
+{
+  "name": "cordova-plugin-googleplus-new",
+  "version": "8.5.8-firebasex18",
+  "description": "Google Sign-In plugin atualizado e compatível com FirebaseX 18+",
+  "cordova": {
+    "id": "cordova-plugin-googleplus",
+    "platforms": ["android", "ios"]
+  },
+  "keywords": [
+    "cordova",
+    "google",
+    "signin",
+    "login",
+    "firebase",
+    "oauth",
+    "gplus"
+  ],
+  "author": "Jonas Cerantola",
+  "license": "MIT"
+}

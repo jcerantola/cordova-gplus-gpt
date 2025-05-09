@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-googleplus"
+        version="8.5.8">
+  <name>Google SignIn</name>
+  <description>Google Sign-In plugin compatível com FirebaseX 18+</description>
+  <license>MIT</license>
+  <keywords>Google, Login, Authentication</keywords>
+  <js-module src="www/GooglePlus.js" name="GooglePlus">
+    <clobbers target="window.plugins.googleplus" />
+  </js-module>
+  <platform name="android">
+    <source-file src="src/android/GooglePlus.java" target-dir="src/nl/xservices/plugins"/>
+  </platform>
+  <platform name="ios">
+    <header-file src="src/ios/GooglePlus.h"/>
+    <source-file src="src/ios/GooglePlus.m"/>
+  </platform>
+</plugin>

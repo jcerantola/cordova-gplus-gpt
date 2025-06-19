@@ -17,6 +17,15 @@
 
         <source-file src="src/ios/GooglePlus.m" />
         <header-file src="src/ios/GooglePlus.h" />
-        <framework src="GoogleSignIn" type="podspec" spec="~> 7.0" />
+        <podspec>
+			<config>
+				<source url="https://cdn.cocoapods.org/"/>
+			</config>
+			<pods use-frameworks="true">
+				<pod name="GoogleSignIn" spec="7.1.0"/>
+				<pod name="GoogleTagManager" spec="8.0.0"/>
+			</pods>
+		</podspec>
+
     </platform>
 </plugin>

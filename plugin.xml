@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<plugin id="cordova-plugin-googleplus-new" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
+<plugin id="cordova-gplus-gpt" version="1.0.0" xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>GooglePlus</name>
     <description>Google Plus Sign-In Plugin for Cordova (Updated for Xcode 16 and FirebaseX 18.x.x)</description>
     <license>MIT</license>
